@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: rgb(43, 42, 42);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+h1 {
+  text-align: center;
+  font-size: 2.5vmax;
+}
+.searchInput {
+  width: 25vw;
+  height: 5vh;
+  border: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.searchInput::placeholder {
+  color: white;
+}
+
+img {
+  width: 18vw;
+  margin-left: 10px;
+}
+.foodbox-main-left {
+  display: flex;
+
+  width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h4 {
+  color: white;
+  font-size: 20px;
+}
+.reset {
+  width: 80px;
+  height: 4vh;
+}
+.inputNum {
+  width: 150px;
+}
+.foodbox-main-left-2 {
+  margin-right: 10px;
+}

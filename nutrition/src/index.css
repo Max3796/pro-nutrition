@@ -1,0 +1,60 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.foodbox-main {
+  width: 80vw;
+  height: 25vh;
+  background-color: rgb(83, 82, 82);
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 120px;
+}
+.foodbox-main-left {
+  display: flex;
+
+  width: 70vw;
+  align-items: center;
+  justify-content: space-between;
+}
+.foodbox-main-left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.foodbox-main-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  padding: 30px;
+}
+.add {
+  width: 40px;
+  height: 40px;
+  font-size: x-large;
+  cursor: pointer;
+}
+.reset {
+  width: 150px;
+  font-size: large;
+  cursor: pointer;
+  border: none;
+  background: #fa292a;
+}
